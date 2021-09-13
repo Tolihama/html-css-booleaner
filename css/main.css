@@ -1,0 +1,20 @@
+.container {
+    width: 50%;
+    margin: 20px auto;
+    background-color: red;
+}
+
+/* Elementi Header */
+header {
+    height: 100px;
+    background-color: rgb(78, 160, 255);
+    background-image: url('../img/pattern.png');
+    background-size: 400px;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 40px;
+    /* Utilizzare i margin in questo modo per posizionare il logo non mi garba per niente*/
+}
