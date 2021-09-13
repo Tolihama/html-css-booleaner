@@ -9,10 +9,19 @@ a {
     text-decoration: none;
 }
 
+ul {
+    margin: 0 0 0 15px;
+}
+
 /* Container elements */
 .container {
     width: 50%;
     margin: 20px auto;
+}
+
+/* Utilities */
+.highlighted {
+    background-color: yellow;
 }
 
 /* Header elements */
@@ -62,4 +71,24 @@ h1 {
 
 .images > p {
     font-size: 12px;
+}
+
+/* Article content section */
+.article-content > * {
+    margin-bottom: 20px;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+    text-align: left;
+}
+
+.lightblue {
+    background-color: lightblue;
 }
