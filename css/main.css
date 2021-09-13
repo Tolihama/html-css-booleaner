@@ -1,10 +1,21 @@
+/* Global settings */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: rgb(78, 160, 255);
+    text-decoration: none;
+}
+
+/* Container elements */
 .container {
     width: 50%;
     margin: 20px auto;
-    background-color: red;
 }
 
-/* Elementi Header */
+/* Header elements */
 header {
     height: 100px;
     background-color: rgb(78, 160, 255);
@@ -16,5 +27,39 @@ header {
     height: 50px;
     margin-left: 10px;
     margin-top: 40px;
-    /* Utilizzare i margin in questo modo per posizionare il logo non mi garba per niente*/
+    /* Utilizzare i margin in questo modo per posizionare il logo non mi garba per niente */
+}
+
+/* Main elements */
+main {
+    padding: 0 5px;
+    /* background-color: red; */
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 38px;
+}
+
+.author {
+    font-size: 18px;
+    color: gray;
+}
+
+.date {
+    font-size: 12px;
+    color: gray;
+}
+
+/* Images section*/
+.images {
+    margin: 15px 0;
+}
+
+.images > img {
+    height: 310px;
+}
+
+.images > p {
+    font-size: 12px;
 }
